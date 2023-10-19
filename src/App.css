@@ -1,38 +1,70 @@
-.App {
+/* App.css */
+.portfolio {
+  font-family: Arial, sans-serif;
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #193149;
+  color: #fff;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header h1 {
+  font-size: 36px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about-me {
+  background-image: url("code.jpg"); /* Set background image for About Me */
+  background-size: cover;
+  color: #180505;
+  padding: 20px;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.skills {
+  background-image: url("profile.jpeg"); /* Set background image for Skills */
+  background-size: cover;
+  color: #100808;
+  padding: 20px;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projects {
+  background-image: url("stars.jpg"); /* Set background image for Projects */
+  background-size: cover;
+  color: #f3f2f2;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.contact {
+  background-image: url("theme.jpg"); /* Set background image for Contact */
+  background-size: cover;
+  color: #222020;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center; /* Center-align text in the contact section */
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #e94560;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.contact a:hover {
+  color: #193149;
 }
